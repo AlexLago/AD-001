@@ -107,7 +107,7 @@ public class Principal {
 			}
 			
 			// -> 5.- Delete (Producto)
-			pro.setId(2);
+			pro.setId(1);
 			
 			pro.delete();
 			
@@ -135,7 +135,7 @@ public class Principal {
 			// -> 2.- Insertar (Usuario)
 			usu.login = "DoctorWho";
 			usu.pass  = "∂³∑x²"; 	 
-			usu.edad = 1200;
+			usu.edad = 12;
 			
 			usu.insertar();
 			
